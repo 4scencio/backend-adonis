@@ -44,11 +44,17 @@ node ace invoke @adonisjs/lucid
 node ace make:migration {{name}}
 ```
 
-## Gerar/Restaurar Migration
+## Gerar/Desfazer Migration
 
 ```
 node ace migration:run
 node ace migration:rollback
+```
+
+## Atualizar Tabela c/ Migration
+
+```
+node ace make:migration deletar_adicionar_coluna_nome --table={{nome da tabela que vai atualizar}}
 ```
 
 ## Listar Rotas Criadas
