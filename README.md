@@ -44,10 +44,11 @@ node ace invoke @adonisjs/lucid
 node ace make:migration {{name}}
 ```
 
-## Gerar Migration
+## Gerar/Restaurar Migration
 
 ```
 node ace migration:run
+node ace migration:rollback
 ```
 
 ## Listar Rotas Criadas
