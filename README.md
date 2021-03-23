@@ -1,4 +1,4 @@
-# Comandos Adonis 
+# Comandos Gerais AdonisCLI
 
 ## Iniciar Projeto Adonis
 
@@ -53,6 +53,13 @@ node ace migration:run
 
 ```
 node ace list:routes
+```
+
+# Comandos Lucid@Adonis
+
+```
+npm i @adonisjs/lucid@alpha
+node ace invoke @adonisjs/lucid
 ```
 
 # Comandos Docker
