@@ -25,10 +25,11 @@ node ace make:controller {{name} -r
 node ace make:model {{name}}
 ```
 
-## Instalar ORM Lucid p/ DB
+## Instalar & Iniciar ORM Lucid
 
 ```
-npm i @adonisjs/lucid@alpha 
+npm i @adonisjs/lucid@alpha
+node ace invoke @adonisjs/lucid
 ```
 
 ## Selecionar o Banco de Dados
@@ -53,13 +54,6 @@ node ace migration:run
 
 ```
 node ace list:routes
-```
-
-# Comandos Lucid@Adonis
-
-```
-npm i @adonisjs/lucid@alpha
-node ace invoke @adonisjs/lucid
 ```
 
 # Comandos Docker
