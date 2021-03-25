@@ -20,4 +20,8 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', 'PostsController.index')
+Route.get('/', async () => {
+    return { Hello: 'World' }
+})
+
+Route.resource('/posts', 'PostsController').apiOnly()
