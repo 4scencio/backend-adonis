@@ -63,6 +63,14 @@ node ace make:migration deletar_adicionar_coluna_nome --table={{nome da tabela q
 node ace list:routes
 ```
 
+## Instalar Autenticação 
+```
+npm i @adonisjs/auth@alpha
+node ace invoke @adonisjs/auth
+```
+
+
+
 # Comandos Docker
 
 Install [Docker Compose](https://docs.docker.com/compose/install/).
