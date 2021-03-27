@@ -69,6 +69,13 @@ npm i @adonisjs/auth@alpha
 node ace invoke @adonisjs/auth
 ```
 
+## Criar e Rodar Seeder 
+
+```
+node ace make:seeder {{ name }}
+node ace db:seed
+``` 
+
 
 
 # Comandos Docker
