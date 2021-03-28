@@ -41,5 +41,6 @@ Server.middleware.register(['Adonis/Core/BodyParserMiddleware'])
 
 //Registrar a Auth
 Server.middleware.registerNamed({
-    auth: 'App/Middleware/Auth'
+    auth: 'App/Middleware/Auth',
+    acl: 'App/Middleware/Acl'
 })

@@ -76,6 +76,11 @@ node ace make:seeder {{ name }}
 node ace db:seed
 ``` 
 
+## Criar Middleware
+
+```
+node ace make:middleware {{ name }}
+``` 
 
 
 # Comandos Docker
