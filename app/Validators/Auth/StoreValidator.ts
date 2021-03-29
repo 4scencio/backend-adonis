@@ -9,5 +9,8 @@ export class StoreValidator {
 	password: schema.string({trim: true}, [rules.minLength(6)])
   })
 
-  public messages = {}
+  public messages = {
+	  'password.minLength': 'Utilize no mínimo 6 caracteres.',
+	  email: 'E-mail não existe ou foi digitado incorretamente.'
+  }
 }
