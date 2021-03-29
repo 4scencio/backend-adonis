@@ -82,6 +82,12 @@ node ace db:seed
 node ace make:middleware {{ name }}
 ``` 
 
+## Criar Validação
+
+```
+node ace make:validator {{ name }}
+``` 
+
 
 # Comandos Docker
 
