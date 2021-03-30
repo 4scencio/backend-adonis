@@ -109,4 +109,12 @@ $ npm run dev
 # build for production and launch server
 $ npm run build
 $ npm run start
+```
 
+# Anotações
+
+```bash
+- Relacionamento: Importar o Decorator, e a declaração da interface do type (belongsTo - BelongsTo) e depois alterar as informações na sequência -> Migration, Model & Controller
+
+- O método auth.authenticate faz com que você pegue todas informações da sessão do usuário logado
+```
