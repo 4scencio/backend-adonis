@@ -4,6 +4,7 @@ import {
   column,
   beforeSave,
   BaseModel,
+  computed
 } from '@ioc:Adonis/Lucid/Orm'
 
 export default class User extends BaseModel {
@@ -15,6 +16,11 @@ export default class User extends BaseModel {
 
   @column()
   public name: string
+
+  @computed()
+  public get firstName() {
+    return this.name.split(' ')[0]
+  }
 
   @column({ serializeAs: null })
   public password: string
