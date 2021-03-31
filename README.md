@@ -114,7 +114,9 @@ $ npm run start
 # Anotações
 
 ```bash
-- Relacionamento: Importar o Decorator, e a declaração da interface do type (belongsTo - BelongsTo) e depois alterar as informações na sequência -> Migration, Model & Controller
+- Relacionamento: Importar o Decorator, e a declaração da interface do type (belongsTo - BelongsTo) e depois alterar as informações na sequência -> Migration, Model & Controller.
 
-- O método auth.authenticate faz com que você pegue todas informações da sessão do usuário logado
+- O método auth.authenticate faz com que você pegue todas informações da sessão do usuário logado.
+
+- É possível utilizar um Decorator computed() para retirar apenas algumas informações de dentro do model.
 ```
