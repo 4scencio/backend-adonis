@@ -28,13 +28,13 @@ export default class User extends BaseModel {
   @column()
   public role: 'normal' | 'admin'
 
-  @column({ serializeAs: null })
+  @column()
   public rememberMeToken?: string
 
-  @column.dateTime({ autoCreate: true, serializeAs: null })
+  @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
 
-  @column.dateTime({ autoCreate: true, autoUpdate: true, serializeAs: null })
+  @column.dateTime({ autoCreate: true, autoUpdate: true })
   public updatedAt: DateTime
 
   @beforeSave()
